@@ -1,0 +1,8 @@
+# Ignorar diretórios e arquivos Python comuns
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar ambientes virtuais
+.venv/
+env/
