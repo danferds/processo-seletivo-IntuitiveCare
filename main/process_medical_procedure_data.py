@@ -1,9 +1,8 @@
 from scripts.extraction_pdf import extrair_tabelas_pdf, concatenar_tabelas
 from scripts.dataset_column_utils import renomear_colunas
 import pandas as pd
-
-CAMINHO_PDF = r"C:\dev\processo_seletivo_intuitivecare\docs\anexos\Anexo_I_Rol_2021RN_465.2021_RN624_RN625.2024.pdf"
-CAMINHO_DF = r"C:\dev\processo_seletivo_intuitivecare\datasets\rol_de_procedimentos_e_eventos_em_saude\rol_de_procedimentos_e_eventos_em_saude.csv"
+CAMINHO_PDF = r"docs/anexos/Anexo_I_Rol_2021RN_465.2021_RN624_RN625.2024.pdf"
+CAMINHO_DF = r"datasets/rol_de_procedimentos_e_eventos_em_saude/rol_de_procedimentos_e_eventos_em_saude.csv"
 MAPEAMENTO_COLUNAS = {
     "OD": "odontologica",
     "AMB": "ambulatorial",
